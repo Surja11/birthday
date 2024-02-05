@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    background-color: #e0b1cb;
+    font-family: 'Kalam', cursive; 
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    color: #fffcf2;
+}
+body{
+    
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+#image{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#i{
+    height:150px;
+    font-size: 80px;
+    color:rgb(161, 87, 87);
+    animation: myHeart 1s steps(2) 0s infinite;
+}
+#j{
+    margin-top:30px;
+}
+
+img{
+    height:200px;
+    width: 200px;
+    border-radius: 5%;
+}
+
+#text1{
+    height: 150px;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#text{
+   
+    font-size: 30px;
+    color:#fffcf2;
+    
+}
+.one{
+color:#fffcf2;
+background-color: #9f86c0;
+border:2px solid #9f86c0 ;
+border-radius: 15%;
+font-family: 'Kalam', cursive;
+font-size: 15px;
+padding:1px 1px 1px 1px;
+}
+#b1{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#yes{
+    margin: 0px 20px 0px 0px;
+}
+#yes:hover{
+    background-color: #fffcf2;
+    color:#9f86c0;
+}
+#no{
+    margin: 0px 0px 0px 20px;
+}
+#no:hover{
+  transform:translateX(200px);
+    
+}
+@media screen and (max-width:1100px) {
+    #text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    color:#fffcf2;
+    }
+}
+@keyframes myHeart{
+    from{ font-size: 80px;}
+    to{ font-size: 120px;}
+    }
+
+
+
+
+
