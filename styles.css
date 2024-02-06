@@ -28,7 +28,7 @@ body{
 
 #i{
     height:150px;
-    font-size: 80px;
+    font-size: 60px;
     color:rgb(161, 87, 87);
     animation: myHeart 1s steps(2) 0s infinite;
 }
@@ -88,14 +88,19 @@ padding:1px 1px 1px 1px;
 }
 @media screen and (max-width:1100px) {
     #text{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family:'Kalam', cursive;
     font-size: 20px;
     color:#fffcf2;
     }
+     header{
+        font-size:25px;
+        font-family: 'Kalam', cursive;
+    
+    }
 }
 @keyframes myHeart{
-    from{ font-size: 80px;}
-    to{ font-size: 120px;}
+    from{ font-size: 60px;}
+    to{ font-size: 90px;}
     }
 
 
