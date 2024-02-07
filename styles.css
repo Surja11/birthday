@@ -5,10 +5,10 @@
 }
 
 header{
-    height: 100px;
     text-align: center;
     font-family: 'Kalam', cursive;
     color: #fffcf2;
+    margin-bottom: 60px;
 }
 body{
     
@@ -28,8 +28,8 @@ body{
 
 #i{
     height:150px;
-    font-size: 60px;
-    color:rgb(161, 87, 87);
+    font-size: 0px;
+    color:rgb(198, 153, 153);
     animation: myHeart 1s steps(2) 0s infinite;
 }
 #j{
@@ -88,11 +88,11 @@ padding:1px 1px 1px 1px;
 }
 @media screen and (max-width:1100px) {
     #text{
-    font-family:'Kalam', cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-size: 20px;
     color:#fffcf2;
     }
-     header{
+    header{
         font-size:25px;
         font-family: 'Kalam', cursive;
     
