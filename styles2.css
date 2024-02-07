@@ -39,12 +39,12 @@ img{
     to{ transform: scale(0.5);
     color:#e0b1cb;}
     }
-   @media screen and (max-width:1100px) {
+
+    @media screen and (max-width:1100px) {
         #main{
        font-size: 40px;
         }
         footer{
             font-size:40px;}
     }
-
 
